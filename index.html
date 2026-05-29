@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci y Números Primos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Desafios en JavaScript(Fibonacci y Números Primos) </div>
+    
+        <ul class="menu">
+            <li><a href="index.html">Desafio</a></li>
+        </ul>
+    </nav>
+    
+    <div class="contenedor">
+        <h1>Simulador de Transferencia de Calor(Ley de Enfriamiento)</h1>
+    
+        <form>
+        <label>(T0)Temperatura Inicial</label>
+        <input type="number" id="temperatura-inicial" value="120"/>
+    
+        <label>(Ts)Temperatura de entorno</label>
+        <input type="number" id="temperatura-entorno" value="38"/>
+    
+        <label>(k)Constante</label>
+        <input type="number" id="constante" step="any" value="0.45"/>
+    
+        <label>(t)Tiempo en Horas</label>
+        <input type="number" id="tiempo-en-horas" step="any" value="3"/>
+
+        <table style="margin-top: 5px; margin-bottom: 10px">
+            <tr>
+                <th>Resultado: </th>
+                <th id="resultado"></th>
+            </tr>
+        </table>
+
+        <button type="button" onclick="desafio1()">Calcular</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
