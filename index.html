@@ -9,7 +9,7 @@
 <body>
 
     <nav class="navbar">
-        <div class="logo">Desafios en JavaScript(Fibonacci y Números Primos) </div>
+        <div class="logo">Generador básico de claves seguras usando Fibonacci y números primos</div>
     
         <ul class="menu">
             <li><a href="index.html">Desafio</a></li>
@@ -17,29 +17,26 @@
     </nav>
     
     <div class="contenedor">
-        <h1>Simulador de Transferencia de Calor(Ley de Enfriamiento)</h1>
+        <h1>Mas seguridad para todos :></h1>
     
         <form>
-        <label>(T0)Temperatura Inicial</label>
-        <input type="number" id="temperatura-inicial" value="120"/>
-    
-        <label>(Ts)Temperatura de entorno</label>
-        <input type="number" id="temperatura-entorno" value="38"/>
-    
-        <label>(k)Constante</label>
-        <input type="number" id="constante" step="any" value="0.45"/>
-    
-        <label>(t)Tiempo en Horas</label>
-        <input type="number" id="tiempo-en-horas" step="any" value="3"/>
+            <label>(A)Ingrese un numero inicial</label>
+            <input type="number" id="inicial" value="5"/>
+        
+            <label>(B)Ingrese un numero segundario(mayor que A)</label>
+            <input type="number" id="secundario" value="9"/>
+        
+            <label>(C)Cantidad de Iteraciones</label>
+            <input type="number" id="iteraciones" value="20"/>
 
-        <table style="margin-top: 5px; margin-bottom: 10px">
-            <tr>
-                <th>Resultado: </th>
-                <th id="resultado"></th>
-            </tr>
-        </table>
+            <table style="margin-top: 5px; margin-bottom: 10px">
+                <tr>
+                    <th>(P)Contraseña Generada </th>
+                    <th id="password"></th>
+                </tr>
+            </table>
 
-        <button type="button" onclick="desafio1()">Calcular</button>
+            <button type="button" onclick="generador()">Generar</button>
         </form>
     </div>
 
