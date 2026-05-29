@@ -1,15 +1,21 @@
 function filtrador(x){
+
     let k = 0;
     for(let i = 1; i <= x; i++){
         if(x % i == 0){
             k = k + 1
         }
     }
+
     if (k == 2){
         return x;
     }else{
         // lo convertimos a algun caracter de la tabla del acssi
-        return String.fromCharCode(x)
+        if( (33<= x && x <= 95) || (97 <= x && x <= 126) ){
+            return String.fromCharCode(x);
+        }else{
+            return x;
+        }
     }
 }
 

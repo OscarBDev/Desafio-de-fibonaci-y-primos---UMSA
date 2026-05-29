@@ -21,23 +21,23 @@
     
         <form>
             <label>(A)Ingrese un numero inicial</label>
-            <input type="number" id="inicial" value="5"/>
+            <input type="number" id="inicial" value="96"/>
         
-            <label>(B)Ingrese un numero segundario(mayor que A)</label>
-            <input type="number" id="secundario" value="9"/>
+            <label>(B)Ingrese un numero segundario</label>
+            <input type="number" id="secundario" value="100"/>
         
             <label>(C)Cantidad de Iteraciones</label>
-            <input type="number" id="iteraciones" value="20"/>
+            <input type="number" id="iteraciones" value="5"/>
 
-            <table style="margin-top: 5px; margin-bottom: 10px">
-                <tr>
-                    <th>(P)Contraseña Generada </th>
-                    <th id="password"></th>
-                </tr>
-            </table>
+            <label>(P)Contraseña Generada</label>
+            <textarea id="password"></textarea>
 
             <button type="button" onclick="generador()">Generar</button>
         </form>
+    </div>
+
+    <div>
+        
     </div>
 
     <script src="js/script.js"></script>
