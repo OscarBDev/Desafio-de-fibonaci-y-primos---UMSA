@@ -1,4 +1,4 @@
-# 🔐 Generador de “Palabra Fibonacci + ASCII”
+# 🔐 Generador básico de claves seguras usando Fibonacci y números primos”
 
 ## 📌 Descripción
 
